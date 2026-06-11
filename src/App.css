@@ -182,3 +182,8 @@
     border-right-color: var(--border);
   }
 }
+
+.card {
+  padding: 2em;
+  border: 1px solid cyan;
+}

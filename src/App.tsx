@@ -12,7 +12,12 @@ function App() {
     <>
       <h1>My React App</h1>
       <div className="card">
-        <Button />
+        {"Profile "}
+        <Button title="Sign Out" disabled onClick={() => alert("Sign Out")}/>
+      </div>
+      <div className="card">
+        {"Home "}
+        <Button title="Register" objArr={[{id: "", title: ""}]} onClick={() => alert("Sign Out")}/>
       </div>
     </>
   )
